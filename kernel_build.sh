@@ -4,16 +4,16 @@
 #
 
 # Needed Secret Variable
-# KERNEL_NAME | Your kernel name
-# KERNEL_SOURCE | Your kernel link source
-# KERNEL_BRANCH  | Your needed kernel branch if needed with -b. eg -b eleven_eas
-# DEVICE_CODENAME | Your device codename
-# DEVICE_DEFCONFIG | Your device defconfig eg. lavender_defconfig
-# ANYKERNEL | Your Anykernel link repository
-# TG_TOKEN | Your telegram bot token
-# TG_CHAT_ID | Your telegram private ci chat id
-# BUILD_USER | Your username
-# BUILD_HOST | Your hostname
+# KERNEL_NAME | PBNS
+# KERNEL_SOURCE | github.com/Wstudiawan/kernel_xiaomi_sdm845.git
+# KERNEL_BRANCH  | -b pbnsnew
+# DEVICE_CODENAME | beryllium
+# DEVICE_DEFCONFIG | beryllium_defconfig
+# ANYKERNEL | github.com/Wstudiawan/AnyKernel3-1.git -b pbns
+# TG_TOKEN | 1446507242:AAFivf422Yvh3CL7y98TJmxV1KgyKByuPzM
+# TG_CHAT_ID | -1001421078455
+# BUILD_USER | wstudiawan
+# BUILD_HOST | @droneci
 
 echo "Downloading few Dependecies . . ."
 # Kernel Sources
