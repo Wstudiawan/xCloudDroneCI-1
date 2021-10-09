@@ -19,7 +19,7 @@ echo "Downloading few Dependecies . . ."
 # Kernel Sources
 git clone --depth=1 https://github.com/Wstudiawan/kernel_xiaomi_sdm845 -b pbnsnew beryllium
 git clone --depth=1 https://github.com/Wstudiawan/WS-clang WS-clang # WS-clang set as Clang Default
-git clone --depth=1 https://github.com/Wstudiawan/AnyKernel3-1 AnyKernel
+
 
 # Main Declaration
 KERNEL_ROOTDIR=$(pwd)/$DEVICE_CODENAME # IMPORTANT ! Fill with your kernel source root directory.
@@ -86,7 +86,7 @@ make -j$(nproc) ARCH=arm64 O=out \
 	exit 1
    fi
 
-  git clone --depth=1 $ANYKERNEL AnyKernel
+  git clone --depth=1 https://github.com/Wstudiawan/AnyKernel3-1 -b pbns AnyKernel
 	cp $IMAGE AnyKernel
 }
 
