@@ -4,10 +4,10 @@
 #
 
 # Needed Secret Variable
-# KERNEL_NAME | kernel_xiaomi_sdm845
+# KERNEL_NAME | beryllium
 # KERNEL_SOURCE | github.com/Wstudiawan/kernel_xiaomi_sdm845.git
 # KERNEL_BRANCH  | -b pbnsnew
-# DEVICE_CODENAME | beryllium
+# DEVICE_CODENAME | kernel_xiaomi_sdm845
 # DEVICE_DEFCONFIG | beryllium_defconfig
 # ANYKERNEL | github.com/Wstudiawan/AnyKernel3-1.git
 # TG_TOKEN | 1446507242:AAFivf422Yvh3CL7y98TJmxV1KgyKByuPzM
