@@ -9,10 +9,10 @@
 # KERNEL_BRANCH  | -b pbnsnew
 # DEVICE_CODENAME | beryllium
 # DEVICE_DEFCONFIG | beryllium_defconfig
-# ANYKERNEL | github.com/Wstudiawan/AnyKernel3-1.git -b pbns
+# ANYKERNEL | github.com/Wstudiawan/AnyKernel3-1.git
 # TG_TOKEN | 1446507242:AAFivf422Yvh3CL7y98TJmxV1KgyKByuPzM
 # TG_CHAT_ID | -1001421078455
-# BUILD_USER | wstudiawan
+# BUILD_USER | Wstudiawan
 # BUILD_HOST | @droneci
 
 echo "Downloading few Dependecies . . ."
