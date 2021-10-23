@@ -18,7 +18,7 @@
 echo "Downloading few Dependecies . . ."
 # Kernel Sources
 git clone --depth=1 https://github.com/Wstudiawan/kernel_xiaomi_sdm845 -b uptempcaf beryllium
-git clone --depth=1 https://github.com/Wstudiawan/WS-clang WS-clang # WS-clang set as Clang Default
+git clone --depth=1 https://github.com/Wstudiawan/llvm-stable WS-clang # WS-clang set as Clang Default
 
 
 # Main Declaration
