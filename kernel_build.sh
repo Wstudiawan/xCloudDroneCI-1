@@ -18,7 +18,7 @@
 echo "Downloading few Dependecies . . ."
 # Kernel Sources
 git clone --depth=1 https://github.com/Wstudiawan/begonia -b puncakup beryllium
-git clone --depth=1 https://github.com/Wstudiawan/WS-clang WS-clang # WS-clang set as Clang Default
+git clone --depth=1 https://github.com/Wstudiawan/google-clang -b 9.0.3-r353983c WS-clang # WS-clang set as Clang Default
 
 
 # Main Declaration
