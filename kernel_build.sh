@@ -17,7 +17,7 @@
 
 echo "Downloading few Dependecies . . ."
 # Kernel Sources
-git clone --depth=1 https://github.com/Wstudiawan/begonia -b puncakup beryllium
+git clone --depth=1 https://github.com/Wstudiawan/sdm845_ngaraisianok -b newtempcaf beryllium
 git clone --depth=1 https://github.com/Nicklas373/DragonTC-CLANG-9.0 WS-clang # WS-clang set as Clang Default
 
 
