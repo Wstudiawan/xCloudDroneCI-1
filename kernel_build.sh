@@ -19,13 +19,13 @@ echo "Downloading few Dependecies . . ."
 # Kernel Sources
 git clone --depth=1 https://github.com/Wstudiawan/Parak_Karakah_android_kernel_xiaomi_sdm845 -b new14caf beryllium
 
-git clone --depth=1 https://github.com/Wstudiawan/llvm-stable AOSP-Clang # AOSP-Clang set as Clang Default
+git clone --depth=1 https://github.com/Wstudiawan/llvm-stable WS-clang # WS-clang set as Clang Default
 
 
 # Main Declaration
 KERNEL_ROOTDIR=$(pwd)/$DEVICE_CODENAME # IMPORTANT ! Fill with your kernel source root directory.
 DEVICE_DEFCONFIG=$DEVICE_DEFCONFIG # IMPORTANT ! Declare your kernel source defconfig file here.
-CLANG_ROOTDIR=$(pwd)/AOSP-Clang # IMPORTANT! Put your clang directory here.
+CLANG_ROOTDIR=$(pwd)/WS-clang # IMPORTANT! Put your clang directory here.
 export KBUILD_BUILD_USER=$BUILD_USER # Change with your own name or else.
 export KBUILD_BUILD_HOST=$BUILD_HOST # Change with your own hostname.
 
