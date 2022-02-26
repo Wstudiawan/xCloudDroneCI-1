@@ -25,7 +25,7 @@ git clone --depth=1 https://github.com/Wstudiawan/llvm-stable AOSP-Clang # AOSP-
 # Main Declaration
 KERNEL_ROOTDIR=$(pwd)/$DEVICE_CODENAME # IMPORTANT ! Fill with your kernel source root directory.
 DEVICE_DEFCONFIG=$DEVICE_DEFCONFIG # IMPORTANT ! Declare your kernel source defconfig file here.
-CLANG_ROOTDIR=$(pwd)/WS-clang # IMPORTANT! Put your clang directory here.
+CLANG_ROOTDIR=$(pwd)/AOSP-Clang # IMPORTANT! Put your clang directory here.
 export KBUILD_BUILD_USER=$BUILD_USER # Change with your own name or else.
 export KBUILD_BUILD_HOST=$BUILD_HOST # Change with your own hostname.
 
