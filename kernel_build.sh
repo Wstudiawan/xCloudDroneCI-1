@@ -17,7 +17,7 @@
 
 echo "Downloading few Dependecies . . ."
 # Kernel Sources
-git clone --depth=1 https://github.com/Wstudiawan/Parak_Karakah_android_kernel_xiaomi_sdm845.git -b new23caf beryllium
+git clone --depth=1 https://github.com/Wstudiawan/Parak_Karakah_android_kernel_xiaomi_sdm845.git -b new24caf beryllium
 
 git clone --depth=1 https://github.com/Wstudiawan/WS-Clang WS-clang # WS-clang set as Clang Default
 
