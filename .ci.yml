@@ -3,7 +3,7 @@ name : xKernel Compiler
 version: rev1.5_template
 steps:
  - name: xKernel Compilation
-   image: xyzuan/xdocker:latest
+   image: nexgang/ubuntu:latest
    environment:
      KERNEL_NAME:
        from_secret: KERNEL_NAME
